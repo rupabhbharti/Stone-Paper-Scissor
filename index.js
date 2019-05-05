@@ -1,4 +1,4 @@
-var APP_ID = "skill-id" ; / App ID for the skill /
+var APP_ID = "skill-id" ; /* App ID for the skill */
 
 var alexaWins = 0;
 var userWins = 0;
