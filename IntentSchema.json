@@ -1,0 +1,92 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "stone paper scissor",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "launch stone paper scissor",
+                        "play stone paper scissor",
+                        "play",
+                        "launch",
+                        "start",
+                        "start game",
+                        "start stone paper scissors",
+                        "start stone paper scissor"
+                    ]
+                },
+                {
+                    "name": "StoneIntent",
+                    "slots": [],
+                    "samples": [
+                        "can i have stone",
+                        "can i have a stone",
+                        "i have stone",
+                        "i have a stone",
+                        "stoner",
+                        "stone"
+                    ]
+                },
+                {
+                    "name": "PaperIntent",
+                    "slots": [],
+                    "samples": [
+                        "can i have paper",
+                        "can i have a paper",
+                        "i have paper",
+                        "i have a paper",
+                        "paper"
+                    ]
+                },
+                {
+                    "name": "ScissorIntent",
+                    "slots": [],
+                    "samples": [
+                        "can i have scissor",
+                        "can i have a scissor",
+                        "i have scissor",
+                        "i have a scissor",
+                        "scissor"
+                    ]
+                },
+                {
+                    "name": "GamesPlayedIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me number of games i have won",
+                        "number of games i have won",
+                        "won",
+                        "how many",
+                        "How many games have I won"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "i am done",
+                        "i don't want to play anymore",
+                        "quit",
+                        "exit",
+                        "stop",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
